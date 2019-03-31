@@ -1,0 +1,31 @@
+package br.com.garrafysystems;
+
+public class Clinica {
+	
+	private long CNPJ;
+	private String razaoSocial;
+	private String nomeFantasia;
+	private String telefoneUm;
+	private String telefoneDois;
+	private String endereco;
+	private String email;
+	private long inscricaoEstadual;
+	private long inscricaoMunicipal;
+	
+	public Clinica(long CNPJ, String razaoSocial, String nomeFantasia, String telefoneUm, String telefoneDois,
+			String endereco, String email, long inscricaoEstadual, long inscricaoMunicipal) {
+		
+		this.CNPJ = CNPJ;
+		this.razaoSocial = razaoSocial;
+		this.nomeFantasia = nomeFantasia;
+		this.telefoneUm = telefoneUm;
+		this.telefoneDois = telefoneDois;
+		this.endereco = endereco;
+		this.email = email;
+		this.inscricaoEstadual = inscricaoEstadual;
+		this.inscricaoMunicipal = inscricaoMunicipal;
+	}
+	
+	
+	
+}

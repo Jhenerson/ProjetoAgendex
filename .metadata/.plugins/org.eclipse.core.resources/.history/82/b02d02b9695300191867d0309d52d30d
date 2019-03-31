@@ -1,0 +1,17 @@
+package br.com.garrafysystems;
+
+import java.util.Date;
+
+public class Medico {
+	
+	private String nome;
+	private String especialidade;
+	private long CPF;
+	private String CRM;
+	private String email;
+	private String endereco;
+	private String telefone;
+	private Date dataDeNascimento;
+	private String sexo;
+	
+}

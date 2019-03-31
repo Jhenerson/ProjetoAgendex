@@ -1,0 +1,11 @@
+package br.com.garrafysystems;
+
+public class Clinica {
+	
+	private long CNPJ;
+	private String razaoSocial;
+	private String nomeFantasia;
+	private String telefoneUm;
+	private String telefoneDois;
+	
+}
