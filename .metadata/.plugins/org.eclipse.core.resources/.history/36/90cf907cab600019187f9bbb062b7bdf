@@ -1,0 +1,16 @@
+package entidades;
+
+import java.util.Date;
+
+public class Paciente {
+
+	private String CPF;
+	private String nome;
+	private String nomeSocial;
+	private String telefone;
+	private String email;
+	private Date dataDeNascimento;
+	private String endereco;
+	private String sexo;
+
+}

@@ -46,6 +46,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Jhenerson\Desktop"/>
 			<item value="C:\Users\Jhenerson\workspace\ProjetoAgendex\Agendex\pom.xml"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -59,6 +60,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="br.com.garrysystems.Agenda"/>
 			<item value="br.com.garrysystems.wwes"/>
 			<item value="br.com.garrafysystems.Agendex"/>
 			<item value="br.com.garrfysystems.Agendex"/>
@@ -70,6 +72,7 @@
 			<item value="br.com.garrfysystems"/>
 		</list>
 		<list key="artifactId">
+			<item value="Agenda"/>
 			<item value="wwes"/>
 			<item value="Agendex"/>
 		</list>

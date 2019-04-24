@@ -1,0 +1,131 @@
+package entidades;
+
+public class Clinica {
+
+	private String CNPJ;
+	private String email;
+	private String telefoneCelular;
+	private String telefoneComercial;
+	private String nomeFantasia;
+	private String razaoSocial;
+	private String CEP;
+	private String logradouro;
+	private int numero;
+	private String complemento;
+	private String inscricaoEstadual;
+	private String inscricaoMunicipal;
+
+	public Clinica(String CNPJ, String email, String telefoneCelular, String telefoneComercial, String nomeFantasia,
+			String razaoSocial, String CEP, String logradouro, int numero, String complemento, long inscricaoEstadual,
+			long inscricaoMunicipal) {
+		this.CNPJ = CNPJ;
+		this.email = email;
+		this.telefoneCelular = telefoneCelular;
+		this.telefoneComercial = telefoneComercial;
+		this.nomeFantasia = nomeFantasia;
+		this.razaoSocial = razaoSocial;
+		this.CEP = CEP;
+		this.logradouro = logradouro;
+		this.numero = numero;
+		this.complemento = complemento;
+		this.inscricaoEstadual = inscricaoEstadual;
+		this.inscricaoMunicipal = inscricaoMunicipal;
+	}					
+		
+	private String getCNPJ() {
+		return CNPJ;
+	}
+
+	private String getEmail() {
+		return email;
+	}
+
+	private String getTelefoneCelular() {
+		return telefoneCelular;
+	}
+
+	private String getTelefoneComercial() {
+		return telefoneComercial;
+	}
+
+	private String getNomeFantasia() {
+		return nomeFantasia;
+	}
+
+	private String getRazaoSocial() {
+		return razaoSocial;
+	}
+
+	private String getCEP() {
+		return CEP;
+	}
+
+	private String getLogradouro() {
+		return logradouro;
+	}
+
+	private int getNumero() {
+		return numero;
+	}
+
+	private String getComplemento() {
+		return complemento;
+	}
+
+	private long getInscricaoEstadual() {
+		return inscricaoEstadual;
+	}
+
+	private long getInscricaoMunicipal() {
+		return inscricaoMunicipal;
+	}
+
+	private void setCNPJ(String CNPJ) {
+		this.CNPJ = CNPJ;
+	}
+
+	private void setEmail(String email) {
+		this.email = email;
+	}
+
+	private void setTelefoneCelular(String telefoneCelular) {
+		this.telefoneCelular = telefoneCelular;
+	}
+
+	private void setTelefoneComercial(String telefoneComercial) {
+		this.telefoneComercial = telefoneComercial;
+	}
+
+	private void setNomeFantasia(String nomeFantasia) {
+		this.nomeFantasia = nomeFantasia;
+	}
+
+	private void setRazaoSocial(String razaoSocial) {
+		this.razaoSocial = razaoSocial;
+	}
+
+	private void setCEP(String CEP) {
+		this.CEP = CEP;
+	}
+
+	private void setLogradouro(String logradouro) {
+		this.logradouro = logradouro;
+	}
+
+	private void setNumero(int numero) {
+		this.numero = numero;
+	}
+
+	private void setComplemento(String complemento) {
+		this.complemento = complemento;
+	}
+
+	private void setInscricaoEstadual(String inscricaoEstadual) {
+		this.inscricaoEstadual = inscricaoEstadual;
+	}
+
+	private void setInscricaoMunicipal(String inscricaoMunicipal) {
+		this.inscricaoMunicipal = inscricaoMunicipal;
+	}
+
+}

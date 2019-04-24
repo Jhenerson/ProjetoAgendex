@@ -1,8 +1,0 @@
-package br.com.garrafysystems;
-
-public class Paciente {
-
-	String nome;
-	String nomeSocial;
-	String telefone;
-}
